@@ -1,4 +1,5 @@
 # mime-lookup-lite
+![CI](https://github.com/FerrowAI/mime-lookup-lite/actions/workflows/ci.yml/badge.svg)
 
 Extension <-> MIME lookup from curated table (~120 types), charset defaults, compressibility heuristic.
 
