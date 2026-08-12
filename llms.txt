@@ -1,0 +1,21 @@
+# mime-lookup-lite
+
+> Extension <-> MIME lookup from curated built-in table (~120 types), charset defaults for text, compressibility heuristic.
+
+Bidirectional MIME type lookup: extension to MIME and back. Includes charset defaults (text/* types get UTF-8), compressibility heuristic, and runtime registration for custom types. Honest: curated subset (~120 entries), not full IANA registry — see README.
+
+## API
+
+- `fromExtension(ext: string): string | null` — Get MIME from extension
+- `fromMime(mime: string): string | null` — Get extension from MIME
+- `lookup(ext: string): MimeEntry | null` — Get full entry {mime, charset?, compressible?}
+- `isCompressible(mime: string): boolean` — Check compressibility
+- `register(ext: string, mime: string, charset?, compressible?): void` — Add custom type
+
+## Install
+
+```
+npm i mime-lookup-lite
+```
+
+Part of the Ferrow open-source toolkit: https://github.com/Ruzylo-cloud/ferrow-toolkit — sponsored by https://ferrow.ai

@@ -1,0 +1,1 @@
+{"name":"mime-lookup-lite","version":"1.0.0","description":"Extension <-> MIME lookup from curated table: 120+ types, charset defaults, compressibility heuristic","main":"dist/index.js","types":"dist/index.d.ts","keywords":["mime","type","lookup","extension","charset","typescript"],"author":"Ruzylo-cloud","license":"MIT","engines":{"node":">=18"}}
