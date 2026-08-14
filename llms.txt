@@ -1,5 +1,7 @@
 # mime-lookup-lite
 
+Install: npm install @ferrow/mime-lookup-lite
+
 > Extension <-> MIME lookup from curated built-in table (~120 types), charset defaults for text, compressibility heuristic.
 
 Bidirectional MIME type lookup: extension to MIME and back. Includes charset defaults (text/* types get UTF-8), compressibility heuristic, and runtime registration for custom types. Honest: curated subset (~120 entries), not full IANA registry — see README.
